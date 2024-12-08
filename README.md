@@ -10,12 +10,9 @@
   2.1 - Passo a passo de como criar os testes no JMeter.  
     2.1.1 - Criar um plano de teste (test plan)         
     2.1.2 - Criar uma Thread Group (botão direto em test plan -> add -> Thread(users)  
-    
       - Number of Thread (Users) -> número de usuários realizando a operação. 
       - Ramp-up period (seconds) -> tempo entre cada operaçao.  
-      
-    2.1.3 - Criar um Sampler HTTP Request (botão direto em Thread Group -> add -> sampler -> HTTP Request)  
-
+    2.1.3 - Criar um Sampler HTTP Request (botão direto em Thread Group -> add -> sampler -> HTTP Request) 
       - protocol [http] -> http                  
       - server name or IP -> localhost  
       - port number -> 3000         
