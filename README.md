@@ -23,9 +23,9 @@
 3 - Passo a passo no terminal   
 
 - Inicia o mongoDB -> sudo systemctl start mongod      
-- Abre a interface gŕafica do mongoDB -> mongodb-compass      
+- Abre a interface gŕafica do mongoDB -> ~/Downloads/JMeter/apache-jmeter-5.6.3/bin mongodb-compass      
 - Inicia o servidor -> /Downloads/JMeter/Tdistribuidos node server.js
-- Inicia o JMeter -> /Downloads/JMeter/apache-jmeter-5.6.3/ ./jmeter.sh
+- Inicia o JMeter -> /Downloads/JMeter/apache-jmeter-5.6.3/bin/ ./jmeter.sh
 - Para abrir o mongoDB -> mongosh     
 - Link para acessar na WEB -> http://localhost:3000/    
 
