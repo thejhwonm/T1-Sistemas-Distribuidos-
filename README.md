@@ -7,18 +7,8 @@
   1.4 - Ao rodar o programa server.js, poderá acessar na web pelo localhost:3000  
 
 2 - Instalar o aplicativo JMeter para realizar os testes.  
-  2.1 - Passo a passo de como criar os testes no JMeter.  
-    2.1.1 - Criar um plano de teste (test plan)         
-    2.1.2 - Criar uma Thread Group (botão direto em test plan -> add -> Thread(users)  
-      - Number of Thread (Users) -> número de usuários realizando a operação. 
-      - Ramp-up period (seconds) -> tempo entre cada operaçao.  
-    2.1.3 - Criar um Sampler HTTP Request (botão direto em Thread Group -> add -> sampler -> HTTP Request) 
-      - protocol [http] -> http                  
-      - server name or IP -> localhost  
-      - port number -> 3000         
-      - HTTP Request -> GET (depende da operação que deseja realizar)    
-      - Path: /pedido   
-    2.1.4 - Criar uma forma de acompanahr a operação (botão direto em HTTP Request -> selecionado -> add -> listener -> View Results Tree, Summary Report, Aggregate Report, Graph Results, View Results in Table)      
+  2.1 - Ir no caminho: JMeter/apache-jmeter-5.6.3/bin/T1 sistemas distribuidos 
+  2.2 - Adicionar nessa pasta o arquivo  
                    
 3 - Passo a passo no terminal   
 
