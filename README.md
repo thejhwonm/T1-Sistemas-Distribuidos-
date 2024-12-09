@@ -8,7 +8,9 @@
 
 2 - Instalar o aplicativo JMeter para realizar os testes.  
   2.1 - Ir no caminho: JMeter/apache-jmeter-5.6.3/bin/T1 sistemas distribuidos 
-  2.2 - Adicionar nessa pasta o arquivo  
+  2.2 - Adicionar nessa pasta o arquivo disponível Thread Group 100 users.jmx substituíndo o atual arquivo encontrado na pasta.
+  2.3 - Após abrir o JMeter, escolher a opção para abrir um arquivo.
+  2.4 - O arquivo escolhido deve ser o Thread Group 100 users.jmx
                    
 3 - Passo a passo no terminal   
 
