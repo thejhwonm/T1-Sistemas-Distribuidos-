@@ -13,15 +13,14 @@ async function gerarDados() {
     console.log('Conectado ao MongoDB');
     const db = client.db(nomeBanco);
 
-    // Coleções que serão populadas
     const colecaoUsuarios = db.collection('Usuarios');
     const colecaoPedidos = db.collection('Pedidos');
     const colecaoProdutos = db.collection('Produtos');
 
     // Populando coleção Usuarios
-    // i < 100 onde 1000 é o número de registros na coleção Usuários
+    // i < 50000 onde 50000 é o número de registros na coleção Usuários
     const usuarios = [];
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 50000; i++) {
       usuarios.push({
         nome: faker.person.fullName(),
         email: faker.internet.email(),
@@ -38,7 +37,7 @@ async function gerarDados() {
 
     // Populando coleção Produtos
     const produtos = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 50000; i++) {
       produtos.push({
         nome: faker.commerce.productName(),
         descricao: faker.commerce.productDescription(),
@@ -51,7 +50,7 @@ async function gerarDados() {
 
     // Populando coleção Pedidos
     const pedidos = [];
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 50000; i++) {
       pedidos.push({
         usuario_id: usuarios[Math.floor(Math.random() * usuarios.length)]._id,
         itens: [
