@@ -6,11 +6,8 @@
   - A conexão do banco estará no arquivo "server.js" , linha 5 à 9.  
   - Ao rodar o programa server.js, poderá acessar na web pelo localhost:3000  
 
-2 - Instalar o aplicativo JMeter para realizar os testes.  
-  - Ir no caminho: JMeter/apache-jmeter-5.6.3/bin/T1 sistemas distribuidos   
-  - Adicionar nessa pasta o arquivo disponível Thread Group 100 users.jmx substituíndo o atual arquivo encontrado na pasta. 
-  - Após abrir o JMeter, escolher a opção para abrir um arquivo.           
-  - O arquivo escolhido deve ser o Thread Group 100 users.jmx  
+2 - Instalar o aplicativo JMeter Apache para realizar os testes.  
+  - Abrir no JMeter o arquivo CONFIG_JMETER.jmx.           
                    
 3 - Passo a passo no terminal   
 
